@@ -1,7 +1,12 @@
 import "./App.css";
+import PageContent from "./pages/PageContent";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <PageContent />
+    </>
+  );
 }
 
 export default App;
