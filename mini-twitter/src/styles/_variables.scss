@@ -1,0 +1,41 @@
+// input
+@mixin input-styles {
+  width: $input-width;
+  height: $input-height;
+  border-radius: $input-rounded;
+  border: 1px solid rgba(0, 0, 0, $input-border-opacity);
+
+  &::placeholder {
+    font-size: $input-font-size;
+    padding-left: 20px;
+  }
+}
+
+// blue button
+@mixin blue-button-styles {
+  width: $button-width;
+  height: $button-height;
+  border-radius: $button-rounded;
+  background-color: $button-color;
+  border: none;
+  font-size: $button-font-size;
+  color: $button-text-color;
+}
+
+/********** input_variables **********/
+$input-width: 450px;
+$input-height: 70px;
+$input-rounded: 6px;
+$input-border-opacity: 0.2;
+$input-font-size: 18px;
+
+/********** button_variables **********/
+$button-color: #1da1f2;
+$button-width: 450px;
+$button-height: 60px;
+$button-rounded: 30px;
+$button-font-size: 18px;
+$button-text-color: #fff;
+
+/********** h2_variables **********/
+$h2-font-size: 42px;
